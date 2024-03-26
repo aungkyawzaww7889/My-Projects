@@ -1,0 +1,38 @@
+
+
+
+.enters{
+  /* padding: 40px; */
+  margin-top: 20px !important;
+    
+}
+
+@media (max-width: 600px){
+    .enters{
+        margin-top: 0 !important;
+    }
+}
+
+em{
+    font-style: unset;
+    animation-name: textlighting;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textlighting{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+        text-shadow: 0 0 20px #fff;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
